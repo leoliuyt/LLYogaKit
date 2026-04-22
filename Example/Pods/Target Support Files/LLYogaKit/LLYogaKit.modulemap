@@ -1,0 +1,6 @@
+framework module LLYogaKit {
+  umbrella header "LLYogaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

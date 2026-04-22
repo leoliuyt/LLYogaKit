@@ -1,0 +1,23 @@
+PODS:
+  - LLYogaKit (3.2.1):
+    - Yoga (~> 3.2.1)
+  - Yoga (3.2.1)
+
+DEPENDENCIES:
+  - LLYogaKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Yoga
+
+EXTERNAL SOURCES:
+  LLYogaKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLYogaKit: b1f7feaf3a989d5d051f0ac1507dd2f56760f138
+  Yoga: 636ce73bd247407928a7df089f3bc3675916b3ff
+
+PODFILE CHECKSUM: 4f7b1e22d9a6fdb4038f728364f1b6ac93f7dc88
+
+COCOAPODS: 1.16.2

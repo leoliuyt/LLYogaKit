@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLYogaKit'
-  s.version          = '0.1.0'
+  s.version          = '3.2.1'
   s.summary          = 'A short description of LLYogaKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/liubaoqiu/LLYogaKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.4'
 
   s.source_files = 'LLYogaKit/Classes/**/*'
+
+  s.platforms = { :ios => "13.4" }
+  s.ios.frameworks = 'UIKit'
+  s.module_name = 'LLYogaKit'
+  s.dependency 'Yoga', "~> #{s.version.to_s}"
+  s.source_files = 'LLYogaKit/Classes/*.{h,m,swift}'
+  s.public_header_files = 'LLYogaKit/Classes/{YGLayout,UIView+Yoga}.h'
+  s.private_header_files = 'LLYogaKit/Classes/YGLayout+Private.h'
+  s.swift_version = '5.1'
   
   # s.resource_bundles = {
   #   'LLYogaKit' => ['LLYogaKit/Assets/*.png']

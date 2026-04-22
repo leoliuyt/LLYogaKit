@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.4'
 
 target 'LLYogaKit_Example' do
   pod 'LLYogaKit', :path => '../'

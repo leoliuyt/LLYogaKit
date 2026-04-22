@@ -1,0 +1,6 @@
+framework module Pods_LLYogaKit_Example {
+  umbrella header "Pods-LLYogaKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

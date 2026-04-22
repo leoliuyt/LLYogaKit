@@ -1,0 +1,35 @@
+{
+  "name": "LLYogaKit",
+  "version": "3.2.1",
+  "summary": "A short description of LLYogaKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liubaoqiu/LLYogaKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liubaoqiu": "liubaoqiu@tianyancha.com"
+  },
+  "source": {
+    "git": "https://github.com/liubaoqiu/LLYogaKit.git",
+    "tag": "3.2.1"
+  },
+  "platforms": {
+    "ios": "13.4"
+  },
+  "source_files": "LLYogaKit/Classes/*.{h,m,swift}",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "module_name": "LLYogaKit",
+  "dependencies": {
+    "Yoga": [
+      "~> 3.2.1"
+    ]
+  },
+  "public_header_files": "LLYogaKit/Classes/{YGLayout,UIView+Yoga}.h",
+  "private_header_files": "LLYogaKit/Classes/YGLayout+Private.h",
+  "swift_versions": "5.1",
+  "swift_version": "5.1"
+}

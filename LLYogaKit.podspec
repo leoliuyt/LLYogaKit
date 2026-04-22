@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LLYogaKit'
   s.version          = '3.2.1'
-  s.summary          = 'A short description of LLYogaKit.'
+  s.summary          = 'LLYogaKit is a Yoga layout engine for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'LLYogaKit is a Yoga layout engine for iOS.'
+  s.description      = 'LLYogaKit is a Yoga layout engine for iOS that provides a declarative, flexbox-based layout system for UIKit views. It allows developers to create complex layouts with ease using a simple API.'
 
   s.homepage         = 'https://github.com/leoliuyt/LLYogaKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

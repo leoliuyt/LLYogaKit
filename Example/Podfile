@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '13.4'
 
 target 'LLYogaKit_Example' do
-  pod 'LLYogaKit', :path => '../'
+ pod 'LLYogaKit', :path => '../'
+# pod 'LLYogaKit', '3.2.1'
 
   target 'LLYogaKit_Tests' do
     inherit! :search_paths

@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'LLYogaKit is a Yoga layout engine for iOS.'
 
-  s.homepage         = 'https://github.com/liubaoqiu/LLYogaKit'
+  s.homepage         = 'https://github.com/leoliuyt/LLYogaKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liubaoqiu' => 'liubaoqiu@tianyancha.com' }
-  s.source           = { :git => 'https://github.com/liubaoqiu/LLYogaKit.git', :tag => s.version.to_s }
+  s.author           = { 'leoliuyt' => 'leoliuyt@sina.cn' }
+  s.source           = { :git => 'https://github.com/leoliuyt/LLYogaKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.4'
@@ -40,12 +38,4 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'LLYogaKit/Classes/{YGLayout,UIView+Yoga}.h'
   s.private_header_files = 'LLYogaKit/Classes/YGLayout+Private.h'
   s.swift_version = '5.1'
-  
-  # s.resource_bundles = {
-  #   'LLYogaKit' => ['LLYogaKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -22,7 +22,7 @@ pod 'LLYogaKit'
 
 ## Author
 
-liubaoqiu, liubaoqiu@tianyancha.com
+leoliuyt, leoliuyt@sina.cn
 
 ## License
 
